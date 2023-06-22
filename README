@@ -17,7 +17,7 @@ Currency Converter is a Node.js application that allows you to convert currency 
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/neuron123/currency-converter.git
+   git clone https://github.com/Neuron123/currency-converter.git
 
 2. Navigate to the project directory:
    cd currency-converter
