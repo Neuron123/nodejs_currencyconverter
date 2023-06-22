@@ -1,0 +1,14 @@
+{
+  "name": "node_currency_converter",
+  "version": "1.0.0",
+  "description": "converts from one currency to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brykoech",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
