@@ -1,0 +1,49 @@
+# Currency Converter
+
+A simple Node.js application that converts currency using real-time exchange rates.
+
+## Description
+
+Currency Converter is a Node.js application that allows you to convert currency from one denomination to another. It utilizes real-time exchange rate data from an external API to perform accurate conversions.
+
+## Features
+
+- Convert currency from one denomination to another
+- Retrieve real-time exchange rates from an API
+- Supports multiple currencies
+
+## Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your-username/currency-converter.git
+
+2. Navigate to the project directory:
+   cd currency-converter
+
+3. Install the dependencies:
+   npm install
+
+Usage
+Run the application with the following command:
+
+node index.js <amount> <fromCurrency> <toCurrency>
+Replace <amount> with the amount of currency you want to convert, <fromCurrency> with the currency code of the original denomination, and <toCurrency> with the currency code of the desired denomination.
+
+For example, to convert 100 USD to EUR:
+
+node index.js 100 USD EUR
+
+The converted amount will be displayed in the console.
+
+Dependencies
+axios: ^0.21.1
+API Reference
+This application uses the ExchangeRate-API to fetch real-time exchange rates. You can find more information about the API and its usage at https://www.exchangerate-api.com.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+Feel free to modify and customize the README file according to your project's specific details, such as adding badges, additional sections, or updating the installation and usage instructions.
